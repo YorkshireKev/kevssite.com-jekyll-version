@@ -16,12 +16,10 @@ layout: default
     </article>
 {% endfor %}
 
-<br />
-
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    {% if paginator.page > 1 %}
+    {% if paginator.page > 2 %}
       <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>     
     {% else %}
     <a href="/" class="previous">Previous</a>
