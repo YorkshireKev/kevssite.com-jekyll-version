@@ -15,6 +15,7 @@ layout: default
 <p>
 <!-- Pagination links -->
 <div class="pagination">
+{{ paginator.page }}
   {% if paginator.previous_page %}
     {% if paginator.page != 2 %}
       <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>     
