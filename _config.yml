@@ -29,6 +29,9 @@ footer-links:
   twitter: YorkshireKev
   #stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
+# enable pagination
+paginate: 5
+
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: kevssite
 
