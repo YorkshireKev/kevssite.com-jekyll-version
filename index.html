@@ -5,21 +5,18 @@ layout: default
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <article class="post">    
-      
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
       <div class="entry">
         {{ post.content | truncatewords:20}}
-      </div>
-      
+      </div>      
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
 {% endfor %}
-
+<p>
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    {% if paginator.page > 2 %}
+    {% if paginator.page != 2 %}
       <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>     
     {% else %}
     <a href="/" class="previous">Previous</a>
@@ -31,3 +28,4 @@ layout: default
     <span class="next ">Next</span>
   {% endif %}
 </div>
+</p>
