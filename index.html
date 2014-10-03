@@ -20,14 +20,17 @@ layout: default
     {% if paginator.page != 2 %}
       | <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>     
     {% else %}
-    | <a href="/" class="previous">Previous</a>
+    <a href="/" class="previous">Previous</a>
     {% endif %}
+    {% else %}
+    <span class="next ">Previous</span>
   {% endif %}
   {% if paginator.next_page %}
     | <a href="/page{{ paginator.next_page }}" class="">Next</a>
   {% else %}
-    <span class="next ">Next</span>
+    | <span class="next ">Next</span>
   {% endif %}
-  | <a href="/allposts">List all posts</a>
+  <span class="page_number ">[ Page: {{ paginator.page }} of {{ paginator.total_pages }} ]</span>
+  <a href="/allposts">List all posts</a>
 </div>
 </p>
