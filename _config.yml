@@ -27,7 +27,7 @@ footer-links:
   pinterest: 
   #rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: YorkshireKev
-  #stackoverflow: "users/1459487/yorkshirekev"
+  stackoverflow: "users/1459487/yorkshirekev"
 
 # enable pagination
 paginate: 5
