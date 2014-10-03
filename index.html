@@ -24,12 +24,12 @@ layout: default
     {% else %}
     <span class="next ">Previous</span>
   {% endif %}
-  {% if paginator.next_page %}
-    | <a href="/page{{ paginator.next_page }}" class="">Next</a>
-  {% else %}
-    | <span class="next ">Next</span>
-  {% endif %}
   <span class="page_number ">[Page: {{ paginator.page }} of {{ paginator.total_pages }}]</span>
-  <a href="/allposts">List all posts</a>
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+  <br /><a href="/allposts">List all posts</a>
 </div>
 </p>
