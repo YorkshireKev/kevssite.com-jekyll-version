@@ -15,18 +15,19 @@ layout: default
 <p>
 <!-- Pagination links -->
 <div class="pagination">
+<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.previous_page %}
     {% if paginator.page != 2 %}
-      <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>     
+      | <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>     
     {% else %}
-    <a href="/" class="previous">Previous</a>
+    | <a href="/" class="previous">Previous</a>
     {% endif %}
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="">Next</a>
+    | <a href="/page{{ paginator.next_page }}" class="">Next</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
+  | <a href="/allposts">List all posts</a>
 </div>
 </p>
