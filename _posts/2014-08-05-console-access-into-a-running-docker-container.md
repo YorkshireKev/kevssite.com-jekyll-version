@@ -34,7 +34,7 @@ sudo docker inspect mycontainer
     "ExitCode": 0,
     "FinishedAt": "0001-01-01T00:00:00Z",
     "Paused": false,
-    <strong>"Pid": 4614,</strong>
+    "Pid": 4614,
     "Running": true,
     "StartedAt": "2014-08-04T20:14:30.785206674Z"
     }
