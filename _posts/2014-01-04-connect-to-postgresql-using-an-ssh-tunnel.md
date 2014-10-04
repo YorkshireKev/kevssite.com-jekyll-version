@@ -32,7 +32,7 @@ To fix this we can add a couple of lines to the postgres config file: pg_hba.con
 This can be a tricky file to find, on my Centos 6 server it is located in the directory `/var/lib/pgsql/9.3/data` (note you will need to change 9.3 to the version you are running).
 
 So, open pg_hba.conf and then add the following lines:
-{% highlight %}
+{% highlight bash %}
 host         all       all   localhost  md5
 local        all       all              md5
 {% endhighlight %}
