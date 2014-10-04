@@ -27,6 +27,7 @@ The aspire has no optical media, so the first thing is to copy the Ubuntu instal
 I have a Linux desktop already, so I simply downloaded Ubuntu onto that and copied it to a USB stick using the dd command:
 {% highlight bash %}
 sudo dd if=/path/to/ubuntu-14.04-desktop-amd64.iso of=/dev/sdX bs=4096
+{% endhighlight %}
 
 Where /dev/sdX is the USB device. Please be careful and tripple check you are entering the correct device (dmesg can help by telling that you just plugged in a USB device). If you accidentally overwrite your root hard drive, don't blame me!
 
