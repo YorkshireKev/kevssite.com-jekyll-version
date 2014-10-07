@@ -78,7 +78,7 @@ Mem:           499        491          7       
 Swap:          511          0        511
 {% endhighlight %}
 
-To make sure that the swapfile is used after a server reboot we need to add an entry for it to `/etc/fstab: Edit <code>/etc/fstab` and add the following line to the end of the file:</code>
+To make sure that the swapfile is used after a server reboot we need to add an entry for it to `/etc/fstab: Edit <code>/etc/fstab` and add the following line to the end of the file:
 {% highlight console %}
 /swapfile none swap defaults 0 0
 {% endhighlight %}
