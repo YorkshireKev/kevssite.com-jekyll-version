@@ -32,7 +32,10 @@ So, the ssh debug info generally scrolls by pretty swiftly until it gets to:
 debug1: Next authentication method: gssapi-with-mic
 {% endhighlight %}
 
-Then ssh just hangs for a while before reporting something along the lines of `debug1: Unspecified GSS failure`.
+Then ssh just hangs for a while before reporting something along the lines of
+{% highlight console %}
+debug1: Unspecified GSS failure
+{% endhighlight %}
 
 The fix is to simple disable GSSAPI as an ssh authentication option. This is done by editing the ssh server configuration file:
 {% highlight bash %}
