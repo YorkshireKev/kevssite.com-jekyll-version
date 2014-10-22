@@ -15,23 +15,27 @@ tags:
 
 I have previously built stud on Debian Linux and the build process is really simple; make and then make install (once openssl-devel in installed and or course the utilities gcc and make too!)
 
-But I&#8217;ve recently moved over to Centos as my server OS of choice and ran into some problems whilst building stud. The error reported when I ran make was file ev.h not found.<!--more-->So, I used yum to install libevent/libevent-devel, but I still got the same error! It turns out that libev and libevent are not the same thing!
+But I've recently moved over to Centos as my server OS of choice and ran into some problems whilst building stud. The error reported when I ran make was file ev.h not found.<!--more-->So, I used yum to install libevent/libevent-devel, but I still got the same error! It turns out that libev and libevent are not the same thing!
 
 I had to manually download and install libev/libev-devel because they are not in the yum repository.
 
 The versions I installed can be downloaded from here:
 
-`<a href="http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm" target="_blank">http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm</a><br />
-<a href="http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm" target="_blank">http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm</a>`
+<a href="http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm" target="_blank">http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-4.03-3.el6.x86_64.rpm</a><br />
+<a href="http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm" target="_blank">http://dl.fedoraproject.org/pub/epel/6/x86_64/libev-devel-4.03-3.el6.x86_64.rpm</a>
 
 The above libs are for Centos 6 64 bit (I&#8217;m running Centos 6.4 64bit). Other versions can be found on the same site, <a href="http://pkgs.org/" target="_blank">http://pkgs.org/</a>
 
-I installed tham using the yum command: `yum localinstall libev-devel-4.03-3.el6.x86_64.rpm libev-4.03-3.el6.x86_64.rpm<br />
-`  
+I installed tham using the yum command:
+{% highlight bash %}
+yum localinstall libev-devel-4.03-3.el6.x86_64.rpm libev-4.03-3.el6.x86_64.rpm<
+{% endhighlight %}
+
 Even after installing libev the make still failed. It seems that the header files were not installed to the correct place.
 
 I simply copied the following file into the common libs folder:
-
-`cp /usr/include/libev/ev.h /usr/include<br />
-`  
+{% highlight bash %}
+cp /usr/include/libev/ev.h /usr/include<br />
+{% endhighlight %}
+ 
 Now, finally, I was able to make and install stud!
