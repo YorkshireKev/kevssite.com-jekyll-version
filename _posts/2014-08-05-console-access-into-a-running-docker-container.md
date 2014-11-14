@@ -17,6 +17,8 @@ Sometimes, when setting up and debugging a container it is extremely useful to b
 
 This is a quick guide on how to get shell console access into a running Docker container.
 
+>UPDATE. You only need to follow this guide if you are running a version of docker older than 1.3. Docker version 1.3 introduced the docker exec command, which replaces the need to use external tools like nsenter.
+
 First you need to ensure that nsenter is installed on the host server. Nsenter allows us to enter the Linux namespace that a Docker container is running in.
 
 On my Ubuntu server I couldn't find nsenter in the package manager (maybe util-linux is too old?) so I built it from source.
