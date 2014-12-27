@@ -11,6 +11,4 @@ All files are licensed under the MIT license except for the contents of the foll
 - images
 - _posts
 - wp_content
-
-
-
+- stuff
