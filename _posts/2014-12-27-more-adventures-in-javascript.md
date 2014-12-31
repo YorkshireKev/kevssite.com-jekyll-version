@@ -21,7 +21,7 @@ If you fancy a quick game, [click here to play html5 LightCycles.](/stuff/lightc
 
 A few things I learnt while writing this simple game:
 
-- Closures are really handy for minimising global variable leakage.
+- Named global objects are a really handy for minimising global variable leakage.
 - Property names of objects don't minify/uglify at all, only the object name gets mangled.
 - Drawing to the canvas is slower and takes more CPU resources that I had expected.
 
