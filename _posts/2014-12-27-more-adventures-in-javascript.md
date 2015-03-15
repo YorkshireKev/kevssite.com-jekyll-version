@@ -23,7 +23,7 @@ A few things I learnt while writing this simple game:
 
 - Named global objects are a good way to minimising global variable leakage.
 - Property names of objects don't minify/uglify at all, only the object name gets mangled.
-- Drawing to the canvas is slower and takes more CPU resources that I had expected.
+- Drawing to the canvas is slower and takes more CPU resources than I had expected.
 
 To get round the CPU load I kept two in memory arrays for the game grid and only drew the differences between the current and last frame to the canvas. I also checked against the grid array for collisions, as checking the canvas directly is even more expensive than drawing to it. There is probably a better way than to draw boxes for each pixel, but I wanted the display to scale to match the screen resolution.
 
