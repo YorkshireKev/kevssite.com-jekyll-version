@@ -17,7 +17,7 @@ Sometimes, when setting up and debugging a container it is extremely useful to b
 
 This is a quick guide on how to get shell console access into a running Docker container.
 
->UPDATE. You only need to follow this guide if you are running a version of docker older than 1.3. Docker version 1.3 introduced the docker exec command, which replaces the need to use external tools like nsenter.
+>UPDATE. If you are running docker version 1.3 or greater then you should use docker exec instead (see docker man pages for more info). The only use case that still requires the use of nsenter is where the user assigned to the container prevents you from doing tasks inside. e.g. where root access is needed but the container is not running as root.
 
 First you need to ensure that nsenter is installed on the host server. Nsenter allows us to enter the Linux namespace that a Docker container is running in.
 
@@ -49,7 +49,7 @@ Note the Pid field in the State section (4614 in the example above).
 
 Where {PID} is the process ID taken from the above docker inspect output. e.g.
 {% highlight bash %}
-    sudo nsenter -m -u -p -n -i -t  4614
+    sudo nsenter -m -u -p -n -i -t  4614
 {% endhighlight %}
 
 You should now have a shell inside the container, and be able to stop & start programs, check out the filesystem, permissions and even install extra applications. Just remember that if you kill the program that the docker RUN command started then the container will exit.
@@ -57,3 +57,4 @@ You should now have a shell inside the container, and be able to stop & start pr
 When you're done snooping around the container, just type exit or Ctrl-d to exit from the container. The container will continue to run and any changes you made within the container will still be in there. Cool or what?
 
  [1]: http://www.kevssite.com/2014/08/05/install-nsenter-from-source/ "Install nsenter from source"
+
