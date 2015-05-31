@@ -16,6 +16,6 @@ Okay, so I often hear people (mainly at work) pronouncing Linux incorrectly, wit
 
 Although this may *sound* more professional it really isn't. I don't know why it winds me up, but I do have to bite my tongue to stop myself from correcting people and sounding like the office nerd (which, now I think about it I probably am!).
 
-So, to settle the matter one and for all, here is a clip of Linus Torvalds pronouncing Linux just as it should be, with a short &#8216;i&#8217;&#8230;
+So, to settle the matter once and for all, here is a clip of Linus Torvalds pronouncing Linux just as it should be, with a short &#8216;i&#8217;&#8230;
 
 <iframe width="490" height="370" src="http://www.youtube.com/embed/5IfHm6R5le0" frameborder="0" allowfullscreen="allowfullscreen" data-link="http://www.youtube.com/watch?v=5IfHm6R5le0"></iframe>
