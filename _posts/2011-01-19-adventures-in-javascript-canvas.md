@@ -22,7 +22,7 @@ At the time of writing this only works in browsers that support the new canvas h
 
 Click the thumbnail below to run the game. You can the right click or something to view the code.<figure id="attachment_29" style="width: 200px;" class="wp-caption alignnone">
 
-<a href="http://www.kevssite.com/kevscode/jumpingjack" target="_self"><img class="size-full wp-image-29" src="http://www.kevssite.com/wp-content/uploads/2012/05/jj-thumbnail.png" alt="An experiment in html5 canvas" width="200" height="140" /></a>
+<a href="/stuff/jumpingjack" target="_self"><img class="size-full wp-image-29" src="http://www.kevssite.com/wp-content/uploads/2012/05/jj-thumbnail.png" alt="An experiment in html5 canvas" width="200" height="140" /></a>
 
 Click to launch the... erm, 'game' 
 
