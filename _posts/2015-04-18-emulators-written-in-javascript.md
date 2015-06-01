@@ -15,7 +15,7 @@ These all need a modern (aka html5) browser with a fairly modern PC.
 ##Sinclair##
  - [JSSpeccy](http://jsspeccy.zxdemo.org/) - ZX Spectrum
  - [qaop/js](http://torinak.com/qaop) - ZX Spectrum fullscreen. Click on sides of window for menu
- - Anyone know of a ZX81 emulator? 3d monster maze...
+ - [JtyOne](http://www.zx81stuff.org.uk/zx81/jtyone.html) - ZX81 Emulator, with games! 3D Monster Maze anyone?
 
 ##Atari##
  - [EstyJS](http://estyjs.azurewebsites.net/) - Atari ST
