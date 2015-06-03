@@ -16,7 +16,7 @@ After studying some of the examples on the Pixi.js website I created a few dodgy
 
 You can take a look at the game I created by visiting the [game page](/bloxed). The source code is available on [my github page](https://github.com/YorkshireKev/bloxed).
 
-![Bloxed](/images/bloxed.png)
+[![Bloxed](/images/bloxed.png "Bloxed! - Click to play!")](/bloxed)
 
 I found the Pixi.js api to be extremely well thought out and predictable to use. Performance seems good, even on my ageing AMDx2 Desktop PC. Scaling the graphics to match the browser window was a little trickier that I expected as I soon realised that I'd have to make adjustments to keep the correct aspect ratio of my badly drawn graphics. Just scaling to the browser window size tends to stretch the image.
 
