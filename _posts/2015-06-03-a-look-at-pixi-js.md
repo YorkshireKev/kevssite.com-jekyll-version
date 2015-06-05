@@ -12,7 +12,7 @@ This got me thinking about WebGL. Is it possible to use a 3D WebGL library to re
 
 Pixi.js provides a JavaScript API for 2D rendering, sprites and scaling using WebGL and will automatically fall back to the canvas rendering if WebGL is not available. This sounded ideal so I figured I'd give it a closer look.
 
-After studying some of the examples on the Pixi.js website I created a few dodgy looking demos (these are safely hiddeen away in a dark corner of my hard drive to save me some embarrassment). Now that I had a basic understanding of how Pixi.js worked I thought I'd have a go at writing a simple 2D game.
+After studying some of the examples on the Pixi.js website I created a few dodgy looking demos (these are safely hidden away in a dark corner of my hard drive to save me some embarrassment). Now that I had a basic understanding of how Pixi.js worked I thought I'd have a go at writing a simple 2D game.
 
 You can take a look at the game I created by visiting the [game page](/bloxed). The source code is available on [my github page](https://github.com/YorkshireKev/bloxed).
 
