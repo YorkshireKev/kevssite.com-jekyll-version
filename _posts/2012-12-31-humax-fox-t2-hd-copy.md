@@ -34,8 +34,8 @@ Here is how I removed the encrypted flag manually using Ubuntu Linux.
 
 1.  Make sure you can FTP to your Humax box (RTFM on how to enable FTP). Hint: the default username is humaxftp and the password is 0000 which is your pin in case you&#8217;ve changed it <img src="http://www.kevssite.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> 
 2.  There are four files for each recording. The one we&#8217;re interested in has the extension .hmt
-3.  Copy the .hmt file to your PC. The simply use a hex editor to modify the file. I suggest you make a backup copy of the file before editing it.
-4.  The byte we need to change is at offset 0x3DC and will contain either 00 or 02 if the recording is encrypted (actually all files are encrypted, I guess the flag really means decryption allowed). Using the hex editor change this to 04 and then same the file.
+3.  Copy the .hmt file to your PC. Then simply use a hex editor to modify the file. I suggest you make a backup copy of the file before editing it.
+4.  The byte we need to change is at offset 0x3DC and will contain either 00 or 02 if the recording is encrypted (actually all files are encrypted, I guess the flag really means decryption allowed). Using the hex editor change this to 04 and then save the file.
 5.  Now copy the file back to the humax box. When you navigate to the recording on the humax box you should no longer see &#8216;enc&#8217; next to the HD symbol.
 
 <a href="http://www.linuxinstead.com/blog/2012/12/31/humax-fox-t2-hd-copy/screenshot-from-2012-12-31-203511/" rel="attachment wp-att-516"><img class="alignnone size-medium wp-image-516" title="Bliss hex editor" src="http://www.linuxinstead.com/blog/wp-content/uploads/2012/12/Screenshot-from-2012-12-31-203511-300x156.png" alt="editing a .hmt file" width="300" height="156" /></a>
