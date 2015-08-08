@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: frontpage
 ---
-
+<h2>Blog Articles</h2>
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <article class="post">    
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <div class="entry">
         {{ post.content | truncatewords:20}}
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
@@ -30,6 +30,6 @@ layout: default
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-  <a class="pull-right" href="/allposts">List all posts</a>
+  <br /><a href="/allposts">List all posts</a>
 </div>
 </p>

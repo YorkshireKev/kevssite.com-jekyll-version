@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <meta name="author" content="Kevin Ellis" />
+    <meta name="description" content="{{ site.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+          
+          <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+    <div id="mainpanel" class="entry">
+        <h2>Programming Experiments</h2>
+        <p>These are my experiments in writing browser based games and demos. Only html5 web standards are used, so no need for flash or any such nonsense.</p>
+        <p>All of them require a fairly modern browser that is capable of supporting HTML5 and WebGL. Chrome or Firefox are good choices. Some of the games might work on a mobile device, but they are really intended to be run in a desktop/laptop browser.</p>
+        <p>They were all written as learning exercises and just for the joy of programming. Click on the thumbnails below to play the games. You can grab the sourcecode from <a href="https://github.com/YorkshireKev">my github page</a>.</p>
+        <div>
+        <table class="gameentries">
+          <tr class="gameentry">
+            <td><a href="/virtual-slot-machine"><img class="thumbnail" src="/images/virt-slots-thumbnail.png">
+            <h3>Virtual Slot Machine</a></h3>
+            <p>A 3D slot machine game that runs in the browser.<br/>
+            Click and drag to move the camera camera around. Spacebar or click the start button to spin the wheels.</p>
+            </td>
+          </tr>
+          <tr class="gameentry">
+            <td><a href="/bloxed"><img class="thumbnail" src="/images/bloxed-thumbnail.png">
+            <h3>Bloxed</a></h3>
+            <p>Bloxed is a simple "push the blocks and collect the keys" game that runs in your browser.</br >
+            Click <a href="/2015/06/03/a-look-at-pixi-js/">here</a> to read the blog entry I wrote at the time I made the game.</p>
+            </td>
+          </tr>
+          <tr class="gameentry">
+            <td><a href="/stuff/lightcycles/lightcycles.html"><img class="thumbnail" src="/images/lightcycles-thumbnail.png">
+            <h3>LightCycles</a></h3>
+            <p>A HTML5 version of the old ZX Spectrum Classic, Lightcycles (1983), which itself was based on Tron.<br />
+            Click <a href="/2014/12/27/more-adventures-in-javascript/">here</a> to read the blog entry I wrote at the time I made the game.</p>
+            </td>
+          </tr>
+        </table>
+        </div>
+      </div>
+      <div id="bloglist">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>

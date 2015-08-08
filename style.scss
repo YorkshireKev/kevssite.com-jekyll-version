@@ -25,23 +25,56 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 980px;
   padding: 0 10px;
   width: 100%;
+}
+
+#bloglist {
+  max-width: 290px;
+  width: 100%;
+  padding: 0 10px;
+  float: left;
+  border-right: 2px solid $lightGray;
+}
+
+#mainpanel {
+  max-width: 670px;
+  width: 100%;
+  padding: 0 10px;
+  float: right;
+}
+  
+.gameentries {
+  vertical-align: text-top;
+  float: right;
+  width: 100%;
+}
+
+.gameentry {
+  box-shadow: 0 10px 6px -6px #777777;
+  background-color: #EEEEEE;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+
+}
+.gameentry > td {
+  width: 100%;
+  float: right;
+}
+
+.thumbnail {
+  float: left;
+  padding: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-  
-  line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
 }
   
 h1 {  
@@ -54,6 +87,7 @@ h1 {
 
 h2 {  
   font-size: 24px;
+  text-align: center;;
 }
 
 h3 {  
@@ -63,6 +97,10 @@ h3 {
 h4 {  
   font-size: 18px;
   color: $gray;
+}
+
+.entry {
+  font-size: 14px;
 }
 
 p {
@@ -153,7 +191,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 2px solid $lightGray;
   
   @include mobile {
     text-align: center;
@@ -165,6 +203,7 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  box-shadow: 0 10px 6px -6px #777777;
 
   @include mobile {
     float: none;
@@ -273,6 +312,7 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  clear: both;
 }
 
 footer {
@@ -286,4 +326,21 @@ footer {
 
 .pull-right {
   float: right;
+}
+
+//Adjust layout for small screens
+@media screen and (max-width: 1000px) {
+    #bloglist {
+    max-width: 980px;
+    width: 100%;
+    padding: 0 10px;
+    float: none;
+    border: 0;
+  }
+    #mainpanel {
+    max-width: 980px;
+    width: 100%;
+    padding: 0 10px;
+    float: none;
+  }
 }
