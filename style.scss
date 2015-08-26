@@ -38,6 +38,13 @@ body {
   border-right: 2px solid $lightGray;
 }
 
+.post > h3 {
+  margin-bottom: 0px;
+}
+.post > .entry > p {
+  margin-top: 0px;
+}
+
 #mainpanel {
   max-width: 670px;
   width: 100%;
@@ -63,7 +70,11 @@ body {
   float: right;
 }
 .gameentry > td > p {
-  margin: 15px 3px; 
+  margin: 15px 3px;
+  margin-top: 0px;
+}
+.gameentry > td > h3 {
+  margin-bottom: 0px;
 }
 
 .thumbnail {
@@ -188,7 +199,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .masthead {
