@@ -15,16 +15,16 @@ tags:
   - hex
   - vi
 ---
-Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I'd share&#8230;
+Sometimes I find it useful to switch to hex mode when editing a file in vi. The command for switching is not very obvious so thought I'd share...
 
-So, open a file in vi as usual, hit escape and type:
+So, open a file in vi as usual. To switch into hex mode hit escape and type:
 {% highlight bash %}
-`:%!xxd` to switch into hex mode
+:%!xxd
 {% endhighlight %}
 
-And when your done hit escape again and type:
+And when your done and want to exit from hex mode hit escape again and type:
 {% highlight bash %}
-`:%!xxd -r` to exit from hex mode.
+:%!xxd -r
 {% endhighlight %}
 
 Okay, so this isn't actaully switching to vi's 'hex mode'; vi doesn't have one. What the above actually does is to stream vi's buffer through the external program 'xxd'.
