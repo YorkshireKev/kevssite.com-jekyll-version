@@ -30,7 +30,7 @@ footer-links:
   #stackoverflow: "users/1459487/yorkshirekev"
 
 # enable pagination
-paginate: 5
+paginate: 7
 paginate_path: "page:num"
 
 # Your disqus shortname, entering this will enable commenting on posts
