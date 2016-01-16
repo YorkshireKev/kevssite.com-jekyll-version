@@ -1,1 +1,1 @@
-docker run --rm -v "$PWD:/src" -p 4000:4000 yorkshirekev/jekyll serve --watch
+docker run --rm --name jekyll -e POLLING=true -v "$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:pages 
