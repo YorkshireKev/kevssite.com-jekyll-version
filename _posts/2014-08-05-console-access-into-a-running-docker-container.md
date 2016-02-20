@@ -27,11 +27,11 @@ On my Ubuntu server I couldn't find nsenter in the package manager (maybe util-l
 
 First, we need to get the process id of the running container. This can be obtained by running docker inspect against the container we want to access. e.g.
 
-``` shell
+{% highlight bash %}
 sudo docker inspect mycontainer
-```
+{% endhighlight %}
 
-``` json
+{% highlight json %}
     "State": {
     "ExitCode": 0,
     "FinishedAt": "0001-01-01T00:00:00Z",
@@ -40,17 +40,17 @@ sudo docker inspect mycontainer
     "Running": true,
     "StartedAt": "2014-08-04T20:14:30.785206674Z"
     }
-```
+{% endhighlight %}
 
 Note the Pid field in the State section (4614 in the example above).
-```shell
+{% highlight bash %}
     sudo nsenter -m -u -p -n -i -t {PID}
-```
+{% endhighlight %}
 
 Where {PID} is the process ID taken from the above docker inspect output. e.g.
-```shell
+{% highlight bash %}
     sudo nsenter -m -u -p -n -i -t  4614
-```
+{% endhighlight %}
 
 You should now have a shell inside the container, and be able to stop & start programs, check out the filesystem, permissions and even install extra applications. Just remember that if you kill the program that the docker RUN command started then the container will exit.
 
