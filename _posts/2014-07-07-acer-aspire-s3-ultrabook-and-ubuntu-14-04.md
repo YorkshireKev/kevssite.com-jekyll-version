@@ -25,9 +25,9 @@ The Aspire came pre-installed with Windows, but my plan was to replace that with
 The aspire has no optical media, so the first thing is to copy the Ubuntu installation image onto a USB stick, and install from that. Note that you can't just copy the .iso file onto the USB, as that won't boot.
 
 I have a Linux desktop already, so I simply downloaded Ubuntu onto that and copied it to a USB stick using the dd command:
-{% highlight bash %}
+```shell
 sudo dd if=/path/to/ubuntu-14.04-desktop-amd64.iso of=/dev/sdX bs=4096
-{% endhighlight %}
+```
 
 Where /dev/sdX is the USB device. Please be careful and tripple check you are entering the correct device (dmesg can help by telling that you just plugged in a USB device). If you accidentally overwrite your root hard drive, don't blame me!
 
@@ -43,33 +43,33 @@ I should note that my S3 did not come with the built in 20gb SSD storage, so I c
 Once the install had completed the S3 would not boot correctly. It dropped into the busybox command shell with an error saying that the root disk could not be found. Interestingly it all looks to be where it should, and if I typed exit from busybox Ubunto continued to boot and loaded the desktop.
 
 After a bit of experimentation with rootdelay and rootwait, which didn't make any difference, I found that the issue was with using disk uuid was causing the boot problem (I'm still not sure why though). To fix the problem edit the default grub boot config:
-{% highlight bash %}
+```shell
 sudo vi /etc/default/grub
-{% endhighlight %}
+```
 
 and uncomment the line :
-{% highlight bash %}
+```shell
 GRUB_DISABLE_LINUX_UUID=true
-{% endhighlight %}
+```
 
 while we're editing the grub config, we might as well make the screen backlight buttons work correctly, as by default they look like they work, but don't actually change the screen brightness.
 
 Find the line that starts GRUB\_CMDLINE\_LINUX_DEFAULT= and change it so it looks like this:
-{% highlight bash %}
+```shell
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi=Linux acpi_backlight=vendor"
-{% endhighlight %}
+```
 
 Then save the file and run grub-update to make the changes take effect at system start.
-{% highlight bash %}
+```shell
 sudo update-grub
-{% endhighlight %}
+```
 
 The only problem left is that the screen brightness always starts at 100%, meaning that you'd have to manually reduce it every time you started the system. The following line will change the brightness to a specific value on each reboot.
 
 Edit /etc/rc/local and add the following line, just before the exit 0 line at the bottom of the file.
-{% highlight bash %}
+```shell
 intel_backlight 20
-{% endhighlight %}
+```
 
 The above will set the brightness to 20%, just change the number to whatever you want it to be. Note that setting it to 0 will make the screen black and unreadable.
 
@@ -78,9 +78,9 @@ The only niggle I did find was that when resuming from suspend (i.e. close the l
 I found it easier if I turned screen lock off from the brightness and lock setting in system settings. Then I can just open the lid and wait maybe 30 seconds for the desktop to appear. The downside to this is that I don't have to enter my password when resuming, but this isn't a problem for me.
 
 Another issue I found is that sometimes Wifi does not re-connect after resume. Restarting network-manger quickly restores connection.
-{% highlight bash %}
+```shell
 sudo restart network-manager
-{% endhighlight %}
+```
 
 For most of the time the system is totally silent. The internal fan does come on when when the system is having to do some work, but when web-browsing and text editing I hardly ever hear it start.
 

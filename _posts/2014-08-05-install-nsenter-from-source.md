@@ -20,31 +20,31 @@ Get the latest version of util-linux from kernel.org
 At the time of writing the latest version was v2.25, which is the version used in the examples here.
   
 Install the build dependencies
-{% highlight bash %}
+```shell
 sudo apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev \
 libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf \
 automake autopoint libtool python2.7-dev
-{% endhighlight %}
+```
 
 Download the util-linux package source code (this contains nsenter)
-{% highlight bash %}
+```shell
 cd /tmp
 wget https://www.kernel.org/pub/linux/utils/util-linux/v2.25/util-linux-2.25.tar.gz
 tar -xvf util-linux-2.25.tar.gz
-{% endhighlight %}
+```
 
 Now we'll compile the nsenter program
-{% highlight bash %}
+```shell
 cd util-linux-2.25
 ./configure
 make nsenter
 sudo cp nsenter /usr/local/bin
-{% endhighlight %}
+```
 
 Confirm that nsenter in installed
-{% highlight bash %}
+```shell
 nsenter --version
-{% endhighlight %}
+```
 
 should return:
 nsenter from util-linux 2.25

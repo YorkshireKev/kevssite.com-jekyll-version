@@ -27,15 +27,15 @@ The versions I installed can be downloaded from here:
 The above libs are for Centos 6 64 bit (I&#8217;m running Centos 6.4 64bit). Other versions can be found on the same site, <a href="http://pkgs.org/" target="_blank">http://pkgs.org/</a>
 
 I installed tham using the yum command:
-{% highlight bash %}
+§
 yum localinstall libev-devel-4.03-3.el6.x86_64.rpm libev-4.03-3.el6.x86_64.rpm<
-{% endhighlight %}
+```
 
 Even after installing libev the make still failed. It seems that the header files were not installed to the correct place.
 
 I simply copied the following file into the common libs folder:
-{% highlight bash %}
+```shell
 cp /usr/include/libev/ev.h /usr/include<br />
-{% endhighlight %}
+```
  
 Now, finally, I was able to make and install stud!
