@@ -11,21 +11,21 @@ For my latest javascript/threejs experiment I created a retro 1980's inspired de
 Of course, no retro demo would be complete without a retro soundtrack. For my [Retro Particle Demo](/retro-particle-demo) this would be a short track that loops continuously.
 
 My initial attempt used the html5 audio tag:
-```html
+{% highlight html %}
 <audio id="demomusic" src="audio/music.mp3" type="audio/mpeg" loop></audio>
-```
+{% endhighlight %}
 
 The above tag will load the mp3 file, but not start it playing (you'd need to add autoplay attribute for that). I didn't want the track to start playing until the demo was loaded, so no autoplay for me.
 
 The loop tag tells the browser to keep playing the track over and over again, which didn't work out so well as I will explain below.
 
 Starting the track from my JavaScript code was simple enough. Just call the play method:
-```javascript
+{% highlight javascript %}
 document.getElementById("demomusic").play();
-```
+{% endhighlight %}
 
 Looped music can get a bit annoying after a while so I added the option to mute the sound. The following onclick event toggles the music on/off by calling the pause and play methods of html5 audio.
-```javascript
+{% highlight javascript %}
   document.getElementById("music").onclick = function () {
     if (mute === true) {
       document.getElementById('demomusic').play();
@@ -35,7 +35,7 @@ Looped music can get a bit annoying after a while so I added the option to mute 
       mute = true;
     }
   };
-```
+{% endhighlight %}
 
 While the html5 audio tag works quite well it does have one annoying aspect: there is a slight delay/pause in-between loops.
 
@@ -54,24 +54,24 @@ Thankfully there are a number of JavaScript frameworks to simplify things. My pe
 Howler.js defaults to the Web Audio API but will fall back to html5 audio for browsers that don't support the web audio api.
 
 To use howler.js, add the JavaScript library in your html and don't forget to remove the html5 audio tag. The audio files will be referenced in the javascript file instead:
-```javascript
+{% highlight javascript %}
 var music = new Howl({
     urls: ['audio/music.ogg'],
     autoplay: false,
     loop: true
   });
   var mute = false;
-```
+{% endhighlight %}
 
 The rest of the JavaScript is pretty similar to that used for html5 audio.
 
 To start the track playing:
-```javascript
+{% highlight javascript %}
 music.play();
-```
+{% endhighlight %}
 
 and the pause/play function now looks like this:
-```javascript
+{% highlight javascript %}
 document.getElementById("music").onclick = function () {
     if (mute === true) {
       music.play();
@@ -81,6 +81,6 @@ document.getElementById("music").onclick = function () {
       mute = true;
     }
   };
-```
+{% endhighlight %}
 
 There is *so* much more that howler.js can do than seamlessly looping music. Check out the [howler.js website](http://howlerjs.com/) for details.

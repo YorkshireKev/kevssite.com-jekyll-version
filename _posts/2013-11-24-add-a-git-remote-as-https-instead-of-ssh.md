@@ -13,15 +13,15 @@ tags:
   - Git
 ---
 Using Bitbucket from a network that does not allow ssh (port 22) connections means that doing a git push or pull using the standard git ssh remote won't work.
-```shell
+{% highlight bash %}
 git remote add origin https://USERNAME@bitbucket.org/USERNAME/REPOSITORY.git
-```
+{% endhighlight %}
 
 Where `USERNAME` is your user/login name and `REPOSITORY` is the name of the repository you want to access.
 
 If you don't want to enter your password every time you connect to the remote you can include the password in the remote url:
-```shell
+{% highlight bash %}
 git remote add origin https://USERNAME:PASSWORD@bitbucket.org/USERNAME/REPOSITORY.git
-```
+{% endhighlight %}
 
 But note that the remote URL, and thus your password, is shown on screen when you run git push etc.

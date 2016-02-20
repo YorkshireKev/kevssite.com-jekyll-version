@@ -26,7 +26,7 @@ It took a while to figure out how to re-create the root@localhost user, so here&
 6.  Re-start mysql server
 
 For those that like a cut n paste approach, these are the commands:
-```shell
+{% highlight bash %}
 service mysqld stop
 mysqld_safe --skip-grant-tables &
 mysql
@@ -37,13 +37,13 @@ commit;
 FLUSH PRIVILEGES;
 exit
 service mysqld restart
-```
+{% endhighlight %}
 
 You can confirm that the root account has been created (or is indeed missing!) by listing entries on the user table:  
-```shell
+{% highlight bash %}
 use mysql;
 select Host,User from user;
-```
+{% endhighlight %}
 
 Good luck!  
 Kev.
