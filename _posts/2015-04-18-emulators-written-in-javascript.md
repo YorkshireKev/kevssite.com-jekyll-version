@@ -12,22 +12,22 @@ These are my favourites that I’ve stumbled across, catalogued here so I can ea
 
 These all need a modern (aka html5) browser with a fairly modern PC.
 
-## Sinclair ##
+##Sinclair##
  - [JSSpeccy](http://jsspeccy.zxdemo.org/) - ZX Spectrum
  - [qaop/js](http://torinak.com/qaop) - ZX Spectrum fullscreen. Click on sides of window for menu
  - [JtyOne](http://www.zx81stuff.org.uk/zx81/jtyone.html) - ZX81 Emulator, with games! 3D Monster Maze anyone?
 
-## Atari ##
+##Atari##
  - [EstyJS](http://estyjs.azurewebsites.net/) - Atari ST
 
-## Apple ##
+##Apple##
  - [PCE.js](https://jamesfriend.com.au/pce-js/) - Apple Mac System 7
  - [A2](http://porkrind.org/a2/) - Apple 2 with games
 
-## BBC ##
+##BBC##
  - [jsBeeb](http://bbc.godbolt.org/) - BBC model B / Master
 
-## PC Linux ##
+##PC Linux##
  - [Virtual X86](http://copy.sh/v86/) - Linux and old versions of Windows with GUI
  - [jsLinux](http://bellard.org/jslinux/) - Command Line Linux
 
