@@ -11,7 +11,7 @@ For my latest javascript/threejs experiment I created a retro 1980's inspired de
 Of course, no retro demo would be complete without a retro soundtrack. For my [Retro Particle Demo](/retro-particle-demo) this would be a short track that loops continuously.
 
 My initial attempt used the html5 audio tag:
-``` html
+```html
 <audio id="demomusic" src="audio/music.mp3" type="audio/mpeg" loop></audio>
 ```
 
@@ -20,7 +20,7 @@ The above tag will load the mp3 file, but not start it playing (you'd need to ad
 The loop tag tells the browser to keep playing the track over and over again, which didn't work out so well as I will explain below.
 
 Starting the track from my JavaScript code was simple enough. Just call the play method:
-``` javascript
+```javascript
 document.getElementById("demomusic").play();
 ```
 
