@@ -31,4 +31,5 @@ These all need a modern (aka html5) browser with a fairly modern PC.
  - [Virtual X86](http://copy.sh/v86/) - Linux and old versions of Windows with GUI
  - [jsLinux](http://bellard.org/jslinux/) - Command Line Linux
 
-
+##Ms-Dos##
+ - [js-dos](https://js-dos.com/) - MS Dos in JavaScript. Includes a working copy of DOOM!
