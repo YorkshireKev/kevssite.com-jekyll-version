@@ -33,3 +33,6 @@ These all need a modern (aka html5) browser with a fairly modern PC.
 
 ## Ms-Dos ##
  - [js-dos](https://js-dos.com/) - MS Dos in JavaScript. Includes a working copy of DOOM!
+
+## Nintendo ##
+ - [jsnes](https://fir.sh/projects/jsnes/) - Online NES emulator, includes some classic games
