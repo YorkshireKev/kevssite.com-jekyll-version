@@ -24,8 +24,11 @@ These all need a modern (aka html5) browser with a fairly modern PC.
  - [PCE.js](https://jamesfriend.com.au/pce-js/) - Apple Mac System 7
  - [A2](http://porkrind.org/a2/) - Apple 2 with games
 
-## BBC ##
- - [jsBeeb](http://bbc.godbolt.org/) - BBC model B / Master
+## Acorn ##
+ - [jsBeeb](http://bbc.godbolt.org/) - BBC Model B / Master
+
+## Commodore ##
+- [Scripted Amiga Emulator](http://scriptedamigaemulator.net) - Amiga emulator with some demos and free games
 
 ## PC Linux ##
  - [Virtual X86](http://copy.sh/v86/) - Linux and old versions of Windows with GUI
