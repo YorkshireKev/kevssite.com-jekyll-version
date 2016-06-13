@@ -2,6 +2,8 @@
 layout: frontpage
 ---
 <h2>Blog Articles</h2>
+<input type="text" id="search-input" placeholder="Search Blogs..." autocomplete="off">
+<ul id="search-results"></ul>
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <article class="post">    
@@ -33,3 +35,5 @@ layout: frontpage
   <br /><a href="/allposts">List all posts</a>
 </div>
 </p>
+<script src="{{ site.baseurl }}/search.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/search.json" type="text/javascript"></script>
