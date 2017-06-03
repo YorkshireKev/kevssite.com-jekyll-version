@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-SITEMAP: http://www.kevssite.com/sitemap.xml
+Sitemap: http://www.kevssite.com/sitemap.xml
