@@ -1,6 +1,6 @@
 ---
-title: About
-author: admin
+title: About Kev's Site
+author: YorkshireKev
 layout: page
 ---
 Welcome to my humble corner of the web.

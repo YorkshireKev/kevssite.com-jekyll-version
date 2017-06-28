@@ -1,5 +1,6 @@
 ---
 title: Arduino power consumption - Delay vs Sleep
+description: Arduino Power consumption measurements between Delay and Sleep
 author: YorkshireKev
 layout: post
 permalink: 2017/01/15/arduino-power-consumption-delay-vs-sleep/

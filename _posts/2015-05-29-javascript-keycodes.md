@@ -1,5 +1,6 @@
 ---
 title: JavaScript KeyCodes
+description: Online JavaScript keycode lookup utility
 author: Kev
 layout: post
 permalink: /2015/05/29/javascript-keycodes/
