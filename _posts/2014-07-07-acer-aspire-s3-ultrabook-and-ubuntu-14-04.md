@@ -37,7 +37,7 @@ To boot from USB, you'll need to press F2 when at startup and either change the 
 
 Once Ubuntu has booted up, the installation is pretty standard. The only issue I had was that the installer does not seem to have an option to connect to a hidden wifi to allow it to install updates as it goes. However, this did not cause any problems as an internet connection is not actually need during install and I was easily able to update once the install had completed.<figure id="attachment_610" style="width: 300px;" class="wp-caption alignnone">
 
-<img class="size-medium wp-image-610" src="http://www.kevssite.com/wp-content/uploads/2014/07/acer-s3-300x229.png" alt="Linux powered ultrabook!" width="300" height="229" /> 
+<img class="size-medium wp-image-610" src="/images/acer-s3-300x229.png" alt="Linux powered ultrabook!" width="300" height="229" /> 
 I should note that my S3 did not come with the built in 20gb SSD storage, so I can't say how easy it is to install to that. My install was made to the 500gb 'normal' hard drive, replacing Windows.
 
 Once the install had completed the S3 would not boot correctly. It dropped into the busybox command shell with an error saying that the root disk could not be found. Interestingly it all looks to be where it should, and if I typed exit from busybox Ubunto continued to boot and loaded the desktop.

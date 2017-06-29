@@ -1,5 +1,6 @@
 ---
 title: Adventures in JavaScript Canvas
+description: Very simple Jumping Jack zx Spectrum remake written in JavaScript. Written as a programming learning exercise.
 author: Kev
 layout: post
 permalink: /2011/01/19/adventures-in-javascript-canvas/
@@ -22,7 +23,7 @@ At the time of writing this only works in browsers that support the new canvas h
 
 Click the thumbnail below to run the game. You can the right click or something to view the code.<figure id="attachment_29" style="width: 200px;" class="wp-caption alignnone">
 
-<a href="/JumpingJack" target="_self"><img class="size-full wp-image-29" src="http://www.kevssite.com/wp-content/uploads/2012/05/jj-thumbnail.png" alt="An experiment in html5 canvas" width="200" height="140" /></a>
+<a href="/JumpingJack" target="_self"><img class="size-full wp-image-29" src="/images/jj-thumbnail.png" alt="An experiment in html5 canvas" width="200" height="140" /></a>
 
 Click to launch the... erm, 'game' 
 
