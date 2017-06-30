@@ -31,7 +31,13 @@ footer-links:
 
 # enable pagination
 paginate: 7
-paginate_path: "page:num"
+paginate_path: "page/:num"
+defaults:
+  -
+    scope:
+      path: "page"
+    values:
+      sitemap: false
 
 # Your disqus shortname, entering this will enable commenting on posts
 #disqus: kevssite
