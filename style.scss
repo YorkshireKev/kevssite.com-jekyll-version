@@ -145,6 +145,11 @@ a {
   }
 }
 
+hr {
+    width: 95%;
+    line-height: 1px;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
@@ -326,6 +331,15 @@ nav {
     font-style: italic;
   }
 
+  .next {
+  text-align: right;
+  float: right;
+  }
+
+  .prev {
+  text-align: left;
+  }
+
   .comments {
     margin-top: 10px;
   }
@@ -335,6 +349,8 @@ nav {
     font-size: 15px;
   }
 }
+
+
 
 .wrapper-footer {
   margin-top: 50px;
