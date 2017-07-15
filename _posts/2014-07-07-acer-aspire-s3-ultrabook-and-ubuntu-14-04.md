@@ -2,7 +2,8 @@
 title: Acer Aspire S3 UltraBook and Ubuntu 14.04
 author: Kev
 layout: post
-permalink: /2014/07/07/acer-aspire-s3-ultrabook-and-ubuntu-14-04/
+permalink: /acer-aspire-s3-ultrabook-and-ubuntu-14-04/
+redirect_from: /2014/07/07/acer-aspire-s3-ultrabook-and-ubuntu-14-04/
 dsq_needs_sync:
   - 1
 categories:
@@ -14,7 +15,7 @@ tags:
   - laptop
   - ubuntu
 ---
-So, we're a Linux users; We appreciate the power and flexibility of open source and we like that our development PC runs the same software as our servers. While building a desktop PC and installing Ubuntu on it is great n' all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!
+Like most Linux users, I appreciate the power and flexibility of open source and like that my development PC runs the same software as my servers. While building a desktop PC and installing Ubuntu on it is great n' all, I wanted my next Linux desktop to be a little more portable. Coding in the garden anyone? yes please!
 
 Now, I really like the look of Apple's macbook air. But apple's wonder machine is out of my budget and I'd also have had to switch from Linux to MacOX.
 

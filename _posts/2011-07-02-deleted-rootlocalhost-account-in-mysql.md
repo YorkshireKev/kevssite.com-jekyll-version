@@ -2,7 +2,8 @@
 title: Deleted root@localhost account in MySQL
 author: Kev
 layout: post
-permalink: /2011/07/02/deleted-rootlocalhost-account-in-mysql/
+permalink: /deleted-rootlocalhost-account-in-mysql/
+redirect_from: /2011/07/02/deleted-rootlocalhost-account-in-mysql/
 syntaxhighlighter_encoded:
   - 1
 dsq_thread_id:

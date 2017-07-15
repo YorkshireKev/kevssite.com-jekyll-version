@@ -2,7 +2,8 @@
 title: Compile node.js on Centos Linux
 author: Kev
 layout: post
-permalink: /2012/05/26/compile-node-js-on-centos-linux/
+permalink: /compile-node-js-on-centos-linux/
+redirect_from: /2012/05/26/compile-node-js-on-centos-linux/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

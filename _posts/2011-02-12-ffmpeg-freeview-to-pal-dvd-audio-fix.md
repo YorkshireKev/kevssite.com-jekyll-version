@@ -2,7 +2,8 @@
 title: ffmpeg freeview to pal-dvd audio fix
 author: Kev
 layout: post
-permalink: /2011/02/12/ffmpeg-freeview-to-pal-dvd-audio-fix/
+permalink: /ffmpeg-freeview-to-pal-dvd-audio-fix/
+redirect_from: /2011/02/12/ffmpeg-freeview-to-pal-dvd-audio-fix/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

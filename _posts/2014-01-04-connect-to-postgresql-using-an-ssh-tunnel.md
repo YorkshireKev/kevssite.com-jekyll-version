@@ -2,7 +2,8 @@
 title: Connect to PostgreSQL using an SSH tunnel
 author: Kev
 layout: post
-permalink: /2014/01/04/connect-to-postgresql-using-an-ssh-tunnel/
+permalink: /connect-to-postgresql-using-an-ssh-tunnel/
+redirect_from: /2014/01/04/connect-to-postgresql-using-an-ssh-tunnel/
 dsq_needs_sync:
   - 1
 categories:

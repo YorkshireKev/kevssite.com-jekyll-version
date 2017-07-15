@@ -2,7 +2,8 @@
 title: K9COPY crashing on Ubuntu 10.10
 author: Kev
 layout: post
-permalink: /2011/03/27/k9copy-crashing-on-ubuntu-10-10/
+permalink: /k9copy-crashing-on-ubuntu-10-10/
+redirect_from: /2011/03/27/k9copy-crashing-on-ubuntu-10-10/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

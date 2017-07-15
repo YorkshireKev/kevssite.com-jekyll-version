@@ -2,7 +2,8 @@
 title: How to set up a Linux RAID mirror
 author: Kev
 layout: post
-permalink: /2009/04/28/how-to-set-up-a-linux-raid-mirror/
+permalink: /how-to-set-up-a-linux-raid-mirror/
+redirect_from: /2009/04/28/how-to-set-up-a-linux-raid-mirror/
 dsq_needs_sync:
   - 1
 categories:

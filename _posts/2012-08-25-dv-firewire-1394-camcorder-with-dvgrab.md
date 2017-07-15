@@ -2,7 +2,8 @@
 title: Downloading from DV firewire 1394 camcorder with dvgrab
 author: Kev
 layout: post
-permalink: /2012/08/25/dv-firewire-1394-camcorder-with-dvgrab/
+permalink: /dv-firewire-1394-camcorder-with-dvgrab/
+redirect_from: /2012/08/25/dv-firewire-1394-camcorder-with-dvgrab/
 dsq_needs_sync:
   - 1
 categories:

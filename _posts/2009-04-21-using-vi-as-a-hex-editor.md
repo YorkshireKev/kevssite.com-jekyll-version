@@ -2,7 +2,8 @@
 title: Using vi as a hex editor
 author: Kev
 layout: post
-permalink: /2009/04/21/using-vi-as-a-hex-editor/
+permalink: /using-vi-as-a-hex-editor/
+redirect_from: /2009/04/21/using-vi-as-a-hex-editor/
 syntaxhighlighter_encoded:
   - 1
 dsq_thread_id:

@@ -2,7 +2,8 @@
 title: Matthew Smith Interview
 author: Kev
 layout: post
-permalink: /2010/05/18/matthew-smith-interview/
+permalink: /matthew-smith-interview/
+redirect_from: /2010/05/18/matthew-smith-interview/
 dsq_thread_id:
   - 1763089998
 dsq_needs_sync:

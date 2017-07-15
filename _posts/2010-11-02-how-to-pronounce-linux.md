@@ -2,7 +2,8 @@
 title: How to pronounce Linux
 author: Kev
 layout: post
-permalink: /2010/11/02/how-to-pronounce-linux/
+permalink: /how-to-pronounce-linux/
+redirect_from: /2010/11/02/how-to-pronounce-linux/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

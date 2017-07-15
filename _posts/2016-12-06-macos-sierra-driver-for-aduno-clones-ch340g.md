@@ -2,7 +2,8 @@
 title: Using cheap arduino clones with macOS Sierra
 author: YorkshireKev
 layout: post
-permalink: /2016/12/06/macos-sierra-driver-for-arduino-clones-ch340g/
+permalink: /macos-sierra-driver-for-arduino-clones-ch340g/
+redirect_from: /2016/12/06/macos-sierra-driver-for-arduino-clones-ch340g/
 dsq_needs_sync:
   - 1
 ---

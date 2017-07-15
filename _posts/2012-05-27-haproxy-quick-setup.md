@@ -2,7 +2,8 @@
 title: HAPROXY quick setup
 author: Kev
 layout: post
-permalink: /2012/05/27/haproxy-quick-setup/
+permalink: /haproxy-quick-setup/
+redirect_from: /2012/05/27/haproxy-quick-setup/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

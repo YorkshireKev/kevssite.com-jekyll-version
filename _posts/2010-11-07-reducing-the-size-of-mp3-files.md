@@ -2,7 +2,8 @@
 title: Reducing the size of mp3 files
 author: Kev
 layout: post
-permalink: /2010/11/07/reducing-the-size-of-mp3-files/
+permalink: /reducing-the-size-of-mp3-files/
+redirect_from: /2010/11/07/reducing-the-size-of-mp3-files/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

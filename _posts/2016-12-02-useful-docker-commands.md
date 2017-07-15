@@ -2,7 +2,8 @@
 title: Useful Docker Commands
 author: YorkshireKev
 layout: post
-permalink: /2016/12/02/useful-docker-commands/
+permalink: /useful-docker-commands/
+redirect_from: /2016/12/02/useful-docker-commands/
 dsq_needs_sync:
   - 1
 ---

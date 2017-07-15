@@ -2,7 +2,8 @@
 title: Installing Android 2.1 onto T-Mobile Pulse
 author: Kev
 layout: post
-permalink: /2010/11/20/installing-android-2-1-onto-t-mobile-pulse/
+permalink: /installing-android-2-1-onto-t-mobile-pulse/
+redirect_from: /2010/11/20/installing-android-2-1-onto-t-mobile-pulse/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

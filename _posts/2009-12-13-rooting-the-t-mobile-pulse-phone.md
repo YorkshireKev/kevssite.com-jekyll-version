@@ -2,7 +2,8 @@
 title: Rooting the T Mobile Pulse phone
 author: Kev
 layout: post
-permalink: /2009/12/13/rooting-the-t-mobile-pulse-phone/
+permalink: /rooting-the-t-mobile-pulse-phone/
+redirect_from: /2009/12/13/rooting-the-t-mobile-pulse-phone/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

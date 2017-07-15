@@ -2,7 +2,8 @@
 title: Converting a XEN DOMU from HVM to PV
 author: Kev
 layout: post
-permalink: /2009/06/27/converting-a-xen-domu-from-hvm-to-pv/
+permalink: /converting-a-xen-domu-from-hvm-to-pv/
+redirect_from: /2009/06/27/converting-a-xen-domu-from-hvm-to-pv/
 dsq_needs_sync:
   - 1
 categories:

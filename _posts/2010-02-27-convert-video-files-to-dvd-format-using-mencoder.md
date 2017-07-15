@@ -2,7 +2,8 @@
 title: Convert video files to DVD format using mencoder
 author: Kev
 layout: post
-permalink: /2010/02/27/convert-video-files-to-dvd-format-using-mencoder/
+permalink: /convert-video-files-to-dvd-format-using-mencoder/
+redirect_from: /2010/02/27/convert-video-files-to-dvd-format-using-mencoder/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

@@ -3,7 +3,8 @@ title: JavaScript KeyCodes
 description: Online JavaScript keycode lookup utility
 author: Kev
 layout: post
-permalink: /2015/05/29/javascript-keycodes/
+permalink: /javascript-keycodes/
+redirect_from: /2015/05/29/javascript-keycodes/
 dsq_needs_sync:
   - 1
 ---

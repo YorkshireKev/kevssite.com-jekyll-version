@@ -2,7 +2,8 @@
 title: Console access into a running Docker container
 author: Kev
 layout: post
-permalink: /2014/08/05/console-access-into-a-running-docker-container/
+permalink: /console-access-into-a-running-docker-container/
+redirect_from: /2014/08/05/console-access-into-a-running-docker-container/
 dsq_needs_sync:
   - 1
 categories:

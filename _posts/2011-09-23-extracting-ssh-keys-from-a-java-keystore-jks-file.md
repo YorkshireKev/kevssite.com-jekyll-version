@@ -2,7 +2,8 @@
 title: Extracting SSH keys from a Java keystore (jks) file
 author: Kev
 layout: post
-permalink: /2011/09/23/extracting-ssh-keys-from-a-java-keystore-jks-file/
+permalink: /extracting-ssh-keys-from-a-java-keystore-jks-file/
+redirect_from: /2011/09/23/extracting-ssh-keys-from-a-java-keystore-jks-file/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

@@ -2,7 +2,8 @@
 title: How to set Centos to UK timezone
 author: Kev
 layout: post
-permalink: /2013/10/12/how-to-set-centos-to-uk-timezone/
+permalink: /how-to-set-centos-to-uk-timezone/
+redirect_from: /2013/10/12/how-to-set-centos-to-uk-timezone/
 dsq_needs_sync:
   - 1
 categories:

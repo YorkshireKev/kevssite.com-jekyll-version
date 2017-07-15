@@ -2,7 +2,8 @@
 title: Mini ITX MythTV Frontend
 author: Kev
 layout: post
-permalink: /2010/11/02/mini-itx-mythtv-frontend/
+permalink: /mini-itx-mythtv-frontend/
+redirect_from: /2010/11/02/mini-itx-mythtv-frontend/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

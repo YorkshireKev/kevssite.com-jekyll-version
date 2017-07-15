@@ -2,7 +2,8 @@
 title: Emulators written in JavaScript
 author: Kev
 layout: post
-permalink: /2015/04/18/emulators-written-in-javascript/
+permalink: /emulators-written-in-javascript/
+redirect_from: /2015/04/18/emulators-written-in-javascript/
 dsq_needs_sync:
   - 1
 ---

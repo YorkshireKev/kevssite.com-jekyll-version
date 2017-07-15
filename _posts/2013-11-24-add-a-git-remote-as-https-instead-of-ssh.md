@@ -2,7 +2,8 @@
 title: Add a GIT remote as https instead of ssh
 author: Kev
 layout: post
-permalink: /2013/11/24/add-a-git-remote-as-https-instead-of-ssh/
+permalink: /add-a-git-remote-as-https-instead-of-ssh/
+redirect_from: /2013/11/24/add-a-git-remote-as-https-instead-of-ssh/
 dsq_needs_sync:
   - 1
 categories:

@@ -2,7 +2,8 @@
 title: Github vs Bitbucket
 author: Kev
 layout: post
-permalink: /2013/10/08/github-vs-bitbucket/
+permalink: /github-vs-bitbucket/
+redirect_from: /2013/10/08/github-vs-bitbucket/
 dsq_needs_sync:
   - 1
 dsq_thread_id:

@@ -1,8 +1,10 @@
 ---
 title: More adventures in JavaScript
+description: The classic zx spectrum game lightcycles recreated in JavaScript.
 author: Kev
 layout: post
-permalink: /2014/12/27/more-adventures-in-javascript/
+permalink: /more-adventures-in-javascript/
+redirect_from: /2014/12/27/more-adventures-in-javascript/
 dsq_needs_sync:
   - 1
 ---

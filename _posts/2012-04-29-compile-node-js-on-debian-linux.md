@@ -2,7 +2,8 @@
 title: Compile Node.js on Debian and Ubuntu Linux
 author: Kev
 layout: post
-permalink: /2012/04/29/compile-node-js-on-debian-linux/
+permalink: /compile-node-js-on-debian-linux/
+redirect_from: /2012/04/29/compile-node-js-on-debian-linux/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

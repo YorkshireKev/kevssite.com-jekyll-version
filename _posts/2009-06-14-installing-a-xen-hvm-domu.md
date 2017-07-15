@@ -2,7 +2,8 @@
 title: Installing a XEN hvm DOMU
 author: Kev
 layout: post
-permalink: /2009/06/14/installing-a-xen-hvm-domu/
+permalink: /installing-a-xen-hvm-domu/
+redirect_from: /2009/06/14/installing-a-xen-hvm-domu/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

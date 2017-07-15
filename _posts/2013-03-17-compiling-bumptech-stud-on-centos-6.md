@@ -2,7 +2,8 @@
 title: Compiling bumptech Stud on Centos 6
 author: Kev
 layout: post
-permalink: /2013/03/17/compiling-bumptech-stud-on-centos-6/
+permalink: /compiling-bumptech-stud-on-centos-6/
+redirect_from: /2013/03/17/compiling-bumptech-stud-on-centos-6/
 dsq_needs_sync:
   - 1
 categories:

@@ -2,7 +2,8 @@
 title: Converting a video file to DVD with ffmpeg
 author: Kev
 layout: post
-permalink: /2009/02/22/converting-a-video-file-to-dvd-with-ffmpeg/
+permalink: /converting-a-video-file-to-dvd-with-ffmpeg/
+redirect_from: /2009/02/22/converting-a-video-file-to-dvd-with-ffmpeg/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

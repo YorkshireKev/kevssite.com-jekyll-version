@@ -2,7 +2,8 @@
 title: Copying JVC Everio HDD camcorder recordings with Linux
 author: Kev
 layout: post
-permalink: /2009/03/01/copying-jvc-everio-hdd-camcorder-recordings-with-linux/
+permalink: /copying-jvc-everio-hdd-camcorder-recordings-with-linux/
+redirect_from: /2009/03/01/copying-jvc-everio-hdd-camcorder-recordings-with-linux/
 dsq_needs_sync:
   - 1
 categories:

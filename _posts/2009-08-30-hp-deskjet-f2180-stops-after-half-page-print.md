@@ -2,7 +2,8 @@
 title: HP Deskjet F2180 stops after printing half of a page
 author: Kev
 layout: post
-permalink: /2009/08/30/hp-deskjet-f2180-stops-after-half-page-print/
+permalink: /hp-deskjet-f2180-stops-after-half-page-print/
+redirect_from: /2009/08/30/hp-deskjet-f2180-stops-after-half-page-print/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

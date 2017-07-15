@@ -2,7 +2,8 @@
 title: Xen 4.1 released
 author: Kev
 layout: post
-permalink: /2011/03/25/xen-4-1-released/
+permalink: /xen-4-1-released/
+redirect_from: /2011/03/25/xen-4-1-released/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

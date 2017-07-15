@@ -2,7 +2,8 @@
 title: How to speed up a slow SSH login
 author: Kev
 layout: post
-permalink: /2013/10/10/how-to-speed-up-a-slow-ssh-login/
+permalink: /how-to-speed-up-a-slow-ssh-login/
+redirect_from: /2013/10/10/how-to-speed-up-a-slow-ssh-login/
 dsq_needs_sync:
   - 1
 categories:

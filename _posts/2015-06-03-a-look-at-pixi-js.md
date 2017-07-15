@@ -2,7 +2,8 @@
 title: A look at Pixi.js
 author: Kev
 layout: post
-permalink: /2015/06/03/a-look-at-pixi-js/
+permalink: /a-look-at-pixi-js/
+redirect_from: /2015/06/03/a-look-at-pixi-js/
 dsq_needs_sync:
   - 1
 ---

@@ -2,7 +2,8 @@
 title: XEN DOM0 support in mainline kernel at last!
 author: Kev
 layout: post
-permalink: /2011/02/03/xen-dom0-in-mainline-kernel/
+permalink: /xen-dom0-in-mainline-kernel/
+redirect_from: /2011/02/03/xen-dom0-in-mainline-kernel/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

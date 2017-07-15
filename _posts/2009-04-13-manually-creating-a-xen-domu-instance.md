@@ -2,7 +2,8 @@
 title: Manually creating a Xen DOMU instance
 author: Kev
 layout: post
-permalink: /2009/04/13/manually-creating-a-xen-domu-instance/
+permalink: /manually-creating-a-xen-domu-instance/
+redirect_from: /2009/04/13/manually-creating-a-xen-domu-instance/
 syntaxhighlighter_encoded:
   - 1
 categories:

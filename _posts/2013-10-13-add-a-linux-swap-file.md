@@ -1,8 +1,10 @@
 ---
 title: Add a Linux swap file
+description: How to add a swap file (not partition) to linux
 author: Kev
 layout: post
-permalink: /2013/10/13/add-a-linux-swap-file/
+permalink: /add-a-linux-swap-file/
+redirect_from: /2013/10/13/add-a-linux-swap-file/
 dsq_needs_sync:
   - 1
 categories:

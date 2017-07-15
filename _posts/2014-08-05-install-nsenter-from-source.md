@@ -2,7 +2,8 @@
 title: Install nsenter from source
 author: Kev
 layout: post
-permalink: /2014/08/05/install-nsenter-from-source/
+permalink: /install-nsenter-from-source/
+redirect_from: /2014/08/05/install-nsenter-from-source/
 dsq_needs_sync:
   - 1
 categories:

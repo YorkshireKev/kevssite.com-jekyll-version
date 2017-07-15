@@ -3,7 +3,8 @@ title: Adventures in JavaScript Canvas
 description: Very simple Jumping Jack zx Spectrum remake written in JavaScript. Written as a programming learning exercise.
 author: Kev
 layout: post
-permalink: /2011/01/19/adventures-in-javascript-canvas/
+permalink: /adventures-in-javascript-canvas/
+redirect_from: /2011/01/19/adventures-in-javascript-canvas/
 dsq_thread_id:
   - 1763097584
 dsq_needs_sync:

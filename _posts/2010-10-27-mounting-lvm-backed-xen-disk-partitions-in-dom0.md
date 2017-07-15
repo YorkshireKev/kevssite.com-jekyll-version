@@ -2,7 +2,8 @@
 title: Mounting LVM backed XEN disk partitions in DOM0
 author: Kev
 layout: post
-permalink: /2010/10/27/mounting-lvm-backed-xen-disk-partitions-in-dom0/
+permalink: /mounting-lvm-backed-xen-disk-partitions-in-dom0/
+redirect_from: /2010/10/27/mounting-lvm-backed-xen-disk-partitions-in-dom0/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

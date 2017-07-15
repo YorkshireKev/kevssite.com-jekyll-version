@@ -2,7 +2,8 @@
 title: Maximizing a window on a MacBook
 author: YorkshireKev
 layout: post
-permalink: /2016/02/09/mac-os-maximize-window/
+permalink: /mac-os-maximize-window/
+redirect_from: /2016/02/09/mac-os-maximize-window/
 dsq_needs_sync:
   - 1
 ---

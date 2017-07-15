@@ -2,7 +2,8 @@
 title: Seamless audio looping in html5 JavaScript
 author: YorkshireKev
 layout: post
-permalink: /2015/11/22/seamless-audio-looping/
+permalink: /seamless-audio-looping/
+redirect_from: /2015/11/22/seamless-audio-looping/
 dsq_needs_sync:
   - 1
 ---

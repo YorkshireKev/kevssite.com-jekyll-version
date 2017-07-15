@@ -2,7 +2,8 @@
 title: How to stop ssh from adding a server to known_hosts file
 author: Kev
 layout: post
-permalink: /2014/01/03/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/
+permalink: /how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/
+redirect_from: /2014/01/03/how-to-stop-ssh-from-adding-a-server-to-known_hosts-file/
 dsq_needs_sync:
   - 1
 categories:

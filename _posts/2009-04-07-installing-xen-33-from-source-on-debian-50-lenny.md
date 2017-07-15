@@ -2,7 +2,8 @@
 title: Installing Xen 3.3.1 from source on Debian 5.0 (Lenny)
 author: Kev
 layout: post
-permalink: /2009/04/07/installing-xen-33-from-source-on-debian-50-lenny/
+permalink: /installing-xen-33-from-source-on-debian-50-lenny/
+redirect_from: /2009/04/07/installing-xen-33-from-source-on-debian-50-lenny/
 syntaxhighlighter_encoded:
   - 1
 dsq_needs_sync:

@@ -2,7 +2,8 @@
 title: Copy Humax HDR-FOX T2 HD recording to USB
 author: admin
 layout: post
-permalink: /2012/12/31/humax-fox-t2-hd-copy/
+permalink: /humax-fox-t2-hd-copy/
+redirect_from: /2012/12/31/humax-fox-t2-hd-copy/
 dsq_needs_sync:
   - 1
 categories:
