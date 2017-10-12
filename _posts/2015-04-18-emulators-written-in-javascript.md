@@ -40,3 +40,6 @@ These all need a modern (aka html5) browser with a fairly modern PC.
 
 ## Nintendo ##
  - [jsnes](https://fir.sh/projects/jsnes/) - Online NES emulator, includes some classic games
+
+## Misc ##
+The author of the qaop/js spectrum emulator also has a [page full of emulator links](http://torinak.com/qaop/links) that is well worth checking out!
