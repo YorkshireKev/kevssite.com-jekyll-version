@@ -43,3 +43,4 @@ These all need a modern (aka html5) browser with a fairly modern PC.
 
 ## Misc ##
 The author of the qaop/js spectrum emulator also has a [page full of emulator links](http://torinak.com/qaop/links) that is well worth checking out!
+Frederic Cambus's github page also has [a nice selection of emulator links](https://github.com/fcambus/jsemu).
