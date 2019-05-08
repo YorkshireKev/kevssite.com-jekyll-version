@@ -58,7 +58,7 @@ tags:
   </p>
   
   <p>
-    <em><strong>And finally, do you still sport the long hair and sandals?</strong></em><br /> I chopped the hair shortly before leaving SP. I do factory work when available (i.e. when I&#8217;m not on Merseyside) so I wear boots and a no.4 crop. New pics will be on my site soon. I&#8217;m worried about how little my appearance has changed <img src="http://www.kevssite.com/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />
+    <em><strong>And finally, do you still sport the long hair and sandals?</strong></em><br /> I chopped the hair shortly before leaving SP. I do factory work when available (i.e. when I&#8217;m not on Merseyside) so I wear boots and a no.4 crop. New pics will be on my site soon. I&#8217;m worried about how little my appearance has changed ;)
   </p>
   
   <p>
