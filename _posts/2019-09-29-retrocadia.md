@@ -35,6 +35,6 @@ I've had a few challenges using the Godot engine. But these were nothing too maj
 
 The game is now almost complete. I've still got to add a few finishing touches such as explosions when the player is hit. It's also only got 4 levels, so I need to add a few more I think!
 
-## Update 02/04/2019
+## Update 02/10/2019
 I've added a naff explosion effect when the player gets hit and made the enemy bullets get faster after every level completed (well, up to a limit!).
 The game is about as complete as I'm going to make it, apart from adding a few more levels. I'll then need to figure out the best way to release the game. I'll probably put it on itch.io for download.
