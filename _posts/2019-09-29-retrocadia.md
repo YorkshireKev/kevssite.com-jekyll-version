@@ -23,6 +23,9 @@ Next up I gave [Godot](https://godotengine.org/) a look. Godot is a full-feature
 
 ## Introducing Godot Experiment no. 1, Retorcadia
 
+> Retrocadia has been released and can be downloaded from [itch.io](https://yorkshirekev.itch.io/retrocadia)
+> <iframe frameborder="0" src="https://itch.io/embed/493918?linkback=true" width="552" height="167"></iframe>
+
 Retrocadia is a simple 2D shoot 'em up. It is very loosely inspired by the ZX Spectrum classic: Arcadia.
 
 ![](/images/arcadia.png)<br  />
@@ -38,3 +41,8 @@ The game is now almost complete. I've still got to add a few finishing touches s
 ## Update 02/10/2019
 I've added a naff explosion effect when the player gets hit and made the enemy bullets get faster after every level completed (well, up to a limit!).
 The game is about as complete as I'm going to make it, apart from adding a few more levels. I'll then need to figure out the best way to release the game. I'll probably put it on itch.io for download.
+
+## Update 06/10/2019
+Added one more level and tidied up a few loose ends. I've also added a check that will inform users if there is a newer version of the game available to download. This allows me to release it as beta and let users know when I update it e.g. when I get round to adding more levels as well as fixing any bugs that might come to light.<br />
+**Retrocadia v0.1 released for Mac and Linux**. A Windows version will follow when I find a windows PC to build and test it on!<br />
+You can download it from itch.io: [https://yorkshirekev.itch.io/retrocadia](https://yorkshirekev.itch.io/retrocadia)
