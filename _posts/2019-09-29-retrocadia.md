@@ -46,3 +46,9 @@ The game is about as complete as I'm going to make it, apart from adding a few m
 Added one more level and tidied up a few loose ends. I've also added a check that will inform users if there is a newer version of the game available to download. This allows me to release it as beta and let users know when I update it e.g. when I get round to adding more levels as well as fixing any bugs that might come to light.<br />
 **Retrocadia v0.1 released for Mac and Linux**. A Windows version will follow when I find a windows PC to build and test it on!<br />
 You can download it from itch.io: [https://yorkshirekev.itch.io/retrocadia](https://yorkshirekev.itch.io/retrocadia)
+
+## Update 10/10/2019
+The Windows version is now also available for download from itch.io alongside the Mac and Linux versions.<br  />
+
+I have also built a web version so the game can be played in a modern desktop browser. At the time of writing the game worked in the latest versions of Chrome and Firefox, but sadly didn't load in Safari. I'd say the web version should be considered experimental and loading can be a little hit and miss. In chrome on my Mac, for example, loading seemed to hang but then ran just fine when I hit refresh! I guess this sort of thing is to be expected as Web-Assembly and Godot's ability to generate it are both cutting edge experimental features.
+[Click here to play Retrocadia in the browser](https://www.kevssite.com/retrocadia-web)
