@@ -42,6 +42,8 @@ Here's a short video of my progress so far...
 
 <iframe src="https://player.vimeo.com/video/428592264" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+
+# 25-Jun-2020 - Collapsing Platforms, Keys and More #
 Over the last 3 weeks, I've made a fair amount of progress on and off. I've got the basic game working, with collapsing platforms, keys. Willy can now be killed by hitting the guardian or a spikey plant etc, or even by falling too far.
 
 I've had to adjust some of the platforms to make the game possible to complete.
