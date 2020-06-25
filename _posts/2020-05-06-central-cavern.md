@@ -41,3 +41,15 @@ Anyway, I've now got a very basic working program. Obviously, there is loads mor
 Here's a short video of my progress so far...
 
 <iframe src="https://player.vimeo.com/video/428592264" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+Over the last 3 weeks, I've made a fair amount of progress on and off. I've got the basic game working, with collapsing platforms, keys. Willy can now be killed by hitting the guardian or a spikey plant etc, or even by falling too far.
+
+I've had to adjust some of the platforms to make the game possible to complete.
+
+One of the trickiest things I've been trying to sort is the camera. I've added a second camera view that gets toggled to when the main camera view gets blocked. You can select between them manually too. This is much better than before, but still not quite an good as I want it to be.
+
+I've still got a fair bit to add yet. There's more sound effects and, of course, some music. Not to mention a title screen and the game over boot scene. Hopefully, I'll have another update in a couple of weeks. Thanks for looking!
+
+Here is an updated video showing the progress so far...
+
+<iframe src="https://player.vimeo.com/video/432599450" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
