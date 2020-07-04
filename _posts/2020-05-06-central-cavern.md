@@ -26,12 +26,13 @@ This page is my mini-blog/development diary. I'll add sections as I make progres
 I don't think I'm up for the slog of doing more than that :/*
 
 **When do you expect the game to be released for download?**
-I'm making the game on an ad-hoc basis in my spare time so it's hard to say how long it will take me to finish, assuming I don't get stuck and/or bored and never finish it :-)
-Another thing that is worrying me is the potential for being sued or something. I've read of horror stories on the internet where fans that have created games, art etc inspired by manic miner and miner Willy have received solicitors letters demanding payment over copyright of IP infringements. So although I'm not using any material or assets from the original game, I'm not confident that a game inspired by the first level of manic miner isn't infringing something.
+*I'm making the game on an ad-hoc basis in my spare time so it's hard to say how long it will take me to finish, assuming I don't get stuck and/or bored and never finish it :-)
+Another thing that is worrying me is the potential for being sued or something. I've read of horror stories on the internet where fans that have created games, art etc inspired by manic miner and miner Willy have received solicitors letters demanding payment over copyright of IP infringements. So although I'm not using any material or assets from the original game, I'm not confident that a game inspired by the first level of manic miner isn't infringing something.*
 
 **What software are you using to make the game?**
-Well, the main game logic etc will be written using the Godot game engine, with GD Script for the programming language.
-For the graphics, I'm using Blender. For sound, I'll probably use audacity to edit sound files etc, and for any 2D graphics, Gimp is my go-to choice of editor.
+*Well, the main game logic etc will be written using the Godot game engine, with GD Script for the programming language.
+For the graphics, I'm using Blender. For sound, I'll probably use audacity to edit sound files etc, and for any 2D graphics, Gimp is my go-to choice of editor.*
+
 
 # 6-Jun-2020 - The First Update! #
 Off to a flying start! Okay, so I've been working on for a few weeks and not posted anything yet!. Over the last few weeks, I've managed to make the basic level structure in Blender and modelled the characters for the Guardian and Miner Willy. Actually, I'd done the Guardian a year or two ago do I just dug it out, imported it into the latest version of blender and added the rigging for animation. I'll probably redo Miner Willy at some point as I'm not happy with how he's turned out.
@@ -55,3 +56,13 @@ I've still got a fair bit to add yet. There's more sound effects and, of course,
 Here is an updated video showing the progress so far...
 
 <iframe src="https://player.vimeo.com/video/432599450" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+# Update 4-Jul-2020 - Music and Sound and a Title Screen! #
+I've now added a simple title screen to the game with music taken from a 1936 recording of Johann Strauss's Blue Danub played by Finnish orchestra Rytmi-Pojat, directed by Eugen Malmstén. I've also managed to find a free version of Hall of the mountain King recorded by Kevin MacLeod, which I've trimmed to use as the in game tune.
+
+I had to resort to doing a spot of coding on the ZX spectrum to get an authentic jumping sound.
+![](/images/central-cavern/jump-code-zxbasic.png)
+It must have been 30+ years since I've written anything in zx basic!
+
+There have been a few other tweaks here and there, and I'm starting to see light at the end of the tunnel. I still need to add a game over screen, something for when the player completes the game and I'll probably faff with the lighting to try and give it a more underground feel if I can.
