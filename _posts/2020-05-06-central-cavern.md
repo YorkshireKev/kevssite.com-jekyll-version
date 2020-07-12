@@ -12,7 +12,7 @@ tags:
 
 One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith's masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I'm looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.
 
-Ever since I saw Mario64 in the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like. After all, if Mario could make the jump to 3D, why not Willy?
+Ever since I saw Mario64 on the N64 I wondered what a 3D version of Manic Miner or Jet Set Willy would look and play like. After all, if Mario could make the jump to 3D, why not Willy?
 
 So with Covid19 removing most of my excuses for not doing a spot of coding in the evenings I thought I'd try making a 3D version of Manic Miner. Well, not the whole game, just the first level to try and get a flavour of what a 3D manic miner might look like.
 
