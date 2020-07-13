@@ -8,7 +8,7 @@ categories:
 tags:
   - godot
 ---
-
+![](/images/central-cavern/screenshot1.png)
 
 One of my all-time favourite games is Manic Miner on the ZX Spectrum. When Bug-Byte released Matthew Smith's masterpiece in 1983 the bar was raised for quality gaming on the Speccy. Sure there were many, many excellent games released on the Spectrum (I'm looking at you Ultimate) but Manic Miner is still my go-to game when I need a retro gaming fix.
 
@@ -19,6 +19,12 @@ So with Covid19 removing most of my excuses for not doing a spot of coding in th
 Having cut my teeth with the Godot game engine on my 2D shooter Retrocadia, I'm feeling confident I can get something working... I mean, writing a 3D game... how hard could it be right?
 
 This page is my mini-blog/development diary. I'll add sections as I make progress with the game.
+
+Update - I've now completed making the game. Here are some screenshots of the finished version:
+
+![](/images/central-cavern/screenshot3.png)
+![](/images/central-cavern/screenshot2.png)
+![](/images/central-cavern/screenshot4.png)
 
 # FAQ #
 **Is this going to be a full 3D version of Manic Miner?**
@@ -66,3 +72,8 @@ I had to resort to doing a spot of coding on the ZX spectrum to get an authentic
 It must have been 30+ years since I've written anything in zx basic!
 
 There have been a few other tweaks here and there, and I'm starting to see light at the end of the tunnel. I still need to add a game over screen, something for when the player completes the game and I'll probably faff with the lighting to try and give it a more underground feel if I can.
+
+# Update 12-Jul-2020 - Just about finished it #
+After a final flurry of activity, I've just about completed writing the game. There's probably a little bit of polish to add, but it's now a complete and playable game! Okay, so it's only got one level but as I always said, that's all I was ever going to write. I've added a game over screen, and a nice surprise if the player ever manages to complete the level.
+
+My next task is to add some screenshots and make a short video of the gameplay. I then plan to seek permission from the copyright owners of Manic Miner (if I can find them) to see if I can release the game as a free download. Wish me luck!
