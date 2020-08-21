@@ -8,6 +8,7 @@ categories:
 tags:
   - godot
 ---
+![](/images/retrocadia/retrocadia-title.png)
 
 Most of my recent (and not so recent) programming efforts have been in JavaScript that runs in the browser. I believed that with WebGL, the browser would become more relevant in gaming and graphics applications. Fast forward a few years and it's clear that the vast majority of PC games are still downloaded and installed, just as they were decades ago.
 
@@ -22,18 +23,20 @@ Given my fond memory of C++, I decided to give [Unreal Engine](https://www.unrea
 Next up I gave [Godot](https://godotengine.org/) a look. Godot is a full-featured 2D/3D game engine that is open source. The game logic is written in Godot's GD Script, though there is a growing number of languages supported by the GD Native extension. GDscript is quite Pythonesque, so it has a reasonably shallow learning curve. After running through the official tutorial: Dodge the Creeps! I decided to go with Godot for my return to native PC game programming.
 
 ## Introducing Godot Experiment no. 1, Retorcadia
-
-> Retrocadia has been released and can be downloaded from [itch.io](https://yorkshirekev.itch.io/retrocadia)
-> <iframe frameborder="0" src="https://itch.io/embed/493918?linkback=true" width="552" height="167"></iframe>
+>
+> Retrocadia has been released for Windows, Mac and Linux.
+> 
+> **Download it from itch.io: [yorkshirekev.itch.io/retrocadia](https://yorkshirekev.itch.io/retrocadia)**
+>
 
 Retrocadia is a simple 2D shoot 'em up. It is very loosely inspired by the ZX Spectrum classic: Arcadia.
 
-![](/images/arcadia.png)<br  />
+![](/images/retrocadia/arcadia.png)<br  />
 (Arcadia - ZX Spectrum Screenshot)
 
 I've had a few challenges using the Godot engine. But these were nothing too major and typical of learning something new. An example of this was getting the enemy's path to loop seamlessly. The followpath2d provided by the engine is intended to follow the path from one end to the other. When looped it just jumps back to the starting screen position. I got past this by monitoring for when the sprite was at the end of the path, then adjusting the start position of the path as it looped.
 
-![](/images/retrocadia.png)<br  />
+![](/images/retrocadia/retrocadia.png)<br  />
 (Retrocadia PC Screenshot)
 
 The game is now almost complete. I've still got to add a few finishing touches such as explosions when the player is hit. It's also only got 4 levels, so I need to add a few more I think!

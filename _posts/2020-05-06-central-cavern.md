@@ -18,12 +18,14 @@ So with Covid19 removing most of my excuses for not doing a spot of coding in th
 
 Having cut my teeth with the Godot game engine on my 2D shooter Retrocadia, I'm feeling confident I can get something working... I mean, writing a 3D game... how hard could it be right?
 
-This page is my mini-blog/development diary. I'll add sections as I make progress with the game.
-
-Update - I've now completed making the game. 
-
-# Download Links #
- **Download it from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)**
+This page is my mini-blog/development diary. I'll add sections at the bottom of the page as I make progress with the game.
+>
+> Update - I've now completed making the game.
+>
+> Central Cavern has been released for Windows, Mac and Linux.
+> 
+> **Download it from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)**
+>
 
 Here are some screenshots of the finished version:
 
