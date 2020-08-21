@@ -20,11 +20,32 @@ Having cut my teeth with the Godot game engine on my 2D shooter Retrocadia, I'm 
 
 This page is my mini-blog/development diary. I'll add sections as I make progress with the game.
 
-Update - I've now completed making the game. Here are some screenshots of the finished version:
+Update - I've now completed making the game. 
+
+# Download Links #
+ **Download it from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)**
+
+Here are some screenshots of the finished version:
 
 ![](/images/central-cavern/screenshot3.png)
 ![](/images/central-cavern/screenshot2.png)
 ![](/images/central-cavern/screenshot4.png)
+
+...and a short video of the game:
+
+<div class="embed-container">
+  <iframe
+      src="https://player.vimeo.com/video/439503171"
+      width="500"
+      height="281"
+      frameborder="0"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+  </iframe>
+</div>
+
+
 
 # FAQ #
 **Is this going to be a full 3D version of Manic Miner?**
@@ -32,8 +53,7 @@ Update - I've now completed making the game. Here are some screenshots of the fi
 I don't think I'm up for the slog of doing more than that :/*
 
 **When do you expect the game to be released for download?**
-*I'm making the game on an ad-hoc basis in my spare time so it's hard to say how long it will take me to finish, assuming I don't get stuck and/or bored and never finish it :-)
-Another thing that is worrying me is the potential for being sued or something. I've read of horror stories on the internet where fans that have created games, art etc inspired by manic miner and miner Willy have received solicitors letters demanding payment over copyright of IP infringements. So although I'm not using any material or assets from the original game, I'm not confident that a game inspired by the first level of manic miner isn't infringing something.*
+*The game is available for download from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)*
 
 **What software are you using to make the game?**
 *Well, the main game logic etc will be written using the Godot game engine, with GD Script for the programming language.
@@ -47,7 +67,17 @@ Anyway, I've now got a very basic working program. Obviously, there is loads mor
 
 Here's a short video of my progress so far...
 
-<iframe src="https://player.vimeo.com/video/428592264" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="embed-container">
+  <iframe
+      src="https://player.vimeo.com/video/428592264"
+      width="500"
+      height="281"
+      frameborder="0"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+  </iframe>
+</div>
 
 
 # 25-Jun-2020 - Collapsing Platforms, Keys and More #
@@ -61,7 +91,17 @@ I've still got a fair bit to add yet. There's more sound effects and, of course,
 
 Here is an updated video showing the progress so far...
 
-<iframe src="https://player.vimeo.com/video/432599450" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="embed-container">
+  <iframe
+      src="https://player.vimeo.com/video/432599450"
+      width="500"
+      height="281"
+      frameborder="0"
+      webkitallowfullscreen
+      mozallowfullscreen
+      allowfullscreen>
+  </iframe>
+</div>
 
 
 # Update 4-Jul-2020 - Music and Sound and a Title Screen! #
@@ -77,3 +117,6 @@ There have been a few other tweaks here and there, and I'm starting to see light
 After a final flurry of activity, I've just about completed writing the game. There's probably a little bit of polish to add, but it's now a complete and playable game! Okay, so it's only got one level but as I always said, that's all I was ever going to write. I've added a game over screen, and a nice surprise if the player ever manages to complete the level.
 
 My next task is to add some screenshots and make a short video of the gameplay. I then plan to seek permission from the copyright owners of Manic Miner (if I can find them) to see if I can release the game as a free download. Wish me luck!
+
+# Update 21-Aug-2020 - Out in the wild! #
+I have finally decided to make central-cavern available for download. I've uploaded the game to itch.io and I will also upload to gamejolt once their site comes back online.
