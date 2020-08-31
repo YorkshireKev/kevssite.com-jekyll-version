@@ -25,6 +25,7 @@ This page is my mini-blog/development diary. I'll add sections at the bottom of 
 > Central Cavern has been released for Windows, Mac and Linux.
 > 
 > **Download it from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)**
+**Download it from gamejolt: [gamejolt.com/games/central-cavern/532409](https://gamejolt.com/games/central-cavern/532409)**
 >
 
 Here are some screenshots of the finished version:
@@ -55,7 +56,7 @@ Here are some screenshots of the finished version:
 I don't think I'm up for the slog of doing more than that :/*
 
 **When do you expect the game to be released for download?**
-*The game is available for download from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)*
+*The game is available for download from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)* or from gamejolt: [gamejolt.com/games/central-cavern/532409](https://gamejolt.com/games/central-cavern/532409)
 
 **What software are you using to make the game?**
 *Well, the main game logic etc will be written using the Godot game engine, with GD Script for the programming language.
