@@ -25,7 +25,8 @@ This page is my mini-blog/development diary. I'll add sections at the bottom of 
 > Central Cavern has been released for Windows, Mac and Linux.
 > 
 > **Download it from itch.io: [yorkshirekev.itch.io/central-cavern](https://yorkshirekev.itch.io/central-cavern)**
-**Download it from gamejolt: [gamejolt.com/games/central-cavern/532409](https://gamejolt.com/games/central-cavern/532409)**
+>
+>**Download it from gamejolt: [gamejolt.com/games/central-cavern/532409](https://gamejolt.com/games/central-cavern/532409)**
 >
 
 Here are some screenshots of the finished version:
