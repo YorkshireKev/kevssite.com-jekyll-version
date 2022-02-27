@@ -14,7 +14,7 @@ While tidying the loft I came across my old JVC Mini DV Camcorder that I purchas
 
 The camcorder does have the ability to playback the tapes via composite output, but firewire is fully digital and thus would give me the best possible quality.
 
-After loading Ubuntu Linus onto the PC, I searched for an application that could pull the footage from the camcorder. I had no luck in finding anything with a nice GUI, so it was left to the good old command line!
+After loading Ubuntu Linux onto the PC, I searched for an application that could pull the footage from the camcorder. I had no luck in finding anything with a nice GUI, so I was left with the good old command line!
 
 It didn't take long for me to stumble across a command line tool called dvgrab. This allowed me to control the camcorder via the Linux command line and, more importantly, to download the raw footage onto the PC.
 
